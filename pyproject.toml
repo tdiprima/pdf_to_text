@@ -1,7 +1,22 @@
 [project]
-name = "blah"
+name = "pdf-to-text"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.10"
-dependencies = []
+description = "Convert PDF to text with table and image support, plus optional AI summarization"
+requires-python = ">=3.11"
+dependencies = [
+    "pdfplumber",
+    "PyMuPDF",
+    "pytesseract",
+    "Pillow",
+    "openai",
+]
+
+[project.scripts]
+pdf-to-text = "main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []

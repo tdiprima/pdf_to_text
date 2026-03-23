@@ -8,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+.env
+
+.vscode/
+.ruff_cache/
+.mypy_cache/
+
+# OS-generated files
+.DS_Store
