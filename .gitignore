@@ -10,6 +10,9 @@ wheels/
 .venv
 .env
 
+*.pdf
+*.txt
+
 .vscode/
 .ruff_cache/
 .mypy_cache/
