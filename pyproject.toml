@@ -4,11 +4,11 @@ version = "0.1.0"
 description = "Convert PDF to text with table and image support, plus optional AI summarization"
 requires-python = ">=3.11"
 dependencies = [
-    "pdfplumber",
-    "PyMuPDF",
-    "pytesseract",
-    "Pillow",
-    "openai",
+    "pdfplumber>=0.11.7",
+    "PyMuPDF>=1.26.4",
+    "pytesseract>=0.3.13",
+    "Pillow>=11.1.0",
+    "openai>=1.107.2",
 ]
 
 [project.scripts]
